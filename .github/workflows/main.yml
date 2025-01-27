@@ -29,5 +29,5 @@ jobs:
           file: ./docker/Dockerfile
           push: true
           tags: |
-            ghcr.io/Pterko/titan-node-app-docker-image:latest
-            ghcr.io/Pterko/titan-node-app-docker-image:${{ github.sha }}
+            ghcr.io/pterko/titan-node-app-docker-image:latest
+            ghcr.io/pterko/titan-node-app-docker-image:${{ github.sha }}
