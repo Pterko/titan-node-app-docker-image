@@ -3,7 +3,6 @@ name: Build and Push to GHCR
 on:
   push:
     branches: [ "main" ]
-    paths: [ 'docker/**' ]  # Optional: Only trigger on Docker changes
 
 jobs:
   build-push:
